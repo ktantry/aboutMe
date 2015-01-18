@@ -1,0 +1,89 @@
+body {
+      /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead {
+  padding: 1em 0;
+  background-image: url('tiger.jpg');
+  background-size: cover; /*stretch*/
+  text-align: center;
+  font-size: 50px;
+  max-width: 12.5em;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px red;
+  border-radius: 6px;
+}
+
+.masthead-intro {
+  color: white;
+}
+
+.masthead-intro
+.content-footer {
+  margin-bottom: 0.1em; 
+  text-align: center;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  color: green;
+  margin-top -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: -0.02em;
+  text-shadow: 2px 2px orange; 
+}
+
+.intro_section,
+.roots_section,
+.more_section,
+.content_footer{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:green;
+  margin-top: 2em;
+  border: solid .5em orange;
+  border-radius: 6px;
+}
+
+.unsplash {
+  color: white;
+}
+
+.splash {
+  color: white;
+}
+
+.social > li {
+  display: inline-block; 
+}
+
+.introduction > p,
+.location > p;
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.more_section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2 em;
+  font-weight: bold;
+}
+
+.social > li {
+  border-radius: 6px;
+  border: solid .15em black;
+  margin: 0 15px 0;
+  padding: 5px;
+}
