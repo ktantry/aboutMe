@@ -7,11 +7,12 @@ body {
 
 .masthead {
   padding: 1em 0;
-  background-image: url('tiger.jpg');
+  /* background-image: url('tiger.jpg'); */
+  background-image: url('https://unsplash.imgix.net/photo-1417722009592-65fa261f5632?q=75&fm=jpg&s=553e7d8a753f4d7b2a4161dcbe9d9801');
   background-size: cover; /*stretch*/
   text-align: center;
   font-size: 50px;
-  max-width: 12.5em;
+  max-width: 13.25em;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -52,6 +53,7 @@ body {
   margin-top: 2em;
   border: solid .5em orange;
   border-radius: 6px;
+  padding: 20px;
 }
 
 .unsplash {
@@ -86,4 +88,27 @@ body {
   border: solid .15em black;
   margin: 0 15px 0;
   padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .masthead-heading {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+        height: 500px;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    .content_footer {
+  font-size: 10px; 
+}
+   
 }
